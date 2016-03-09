@@ -49,11 +49,11 @@ public class FileService
             Cell cell = null;
 
             //Update the value of cell
-            cell = sheet.getRow( 1 ).getCell( 2 );
+            cell = sheet.getRow( 1 ).getCell( 1 );
             cell.setCellValue( "nhancv" );
-            cell = sheet.getRow( 2 ).getCell( 2 );
+            cell = sheet.getRow( 2 ).getCell( 1 );
             cell.setCellValue( "nhancv" );
-            cell = sheet.getRow( 3 ).getCell( 2 );
+            cell = sheet.getRow( 3 ).getCell( 1 );
             cell.setCellValue( "nhancv" );
 
             file.close();

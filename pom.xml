@@ -10,7 +10,7 @@
 
   <packaging>war</packaging>
   <dependencies>
-
+    <!--jersey-->
     <dependency>
       <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-server</artifactId>
@@ -32,6 +32,7 @@
       <version>7.0</version>
     </dependency>
 
+    <!--working with poi - the Java API for Microsoft Documents-->
     <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi</artifactId>
